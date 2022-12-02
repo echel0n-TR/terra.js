@@ -27,8 +27,8 @@ import {
   TallyResult,
   proposalStatusFromJSON,
   proposalStatusToJSON,
-} from '@terra-money/terra.proto/cosmos/gov/v1beta1/gov';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
+} from '@terra-rebels/terra.proto/cosmos/gov/v1beta1/gov';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
 import * as Long from 'long';
 
 /**

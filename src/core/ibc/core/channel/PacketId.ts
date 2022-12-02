@@ -1,4 +1,4 @@
-import { PacketId as PacketId_pb } from '@terra-money/terra.proto/ibc/core/channel/v1/channel';
+import { PacketId as PacketId_pb } from '@terra-rebels/terra.proto/ibc/core/channel/v1/channel';
 import { JSONSerializable } from '../../../../util/json';
 import * as Long from 'long';
 

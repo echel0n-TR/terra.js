@@ -1,5 +1,5 @@
 import { Coins } from '../Coins';
-import { Period as Period_pb } from '@terra-money/terra.proto/cosmos/vesting/v1beta1/vesting';
+import { Period as Period_pb } from '@terra-rebels/terra.proto/cosmos/vesting/v1beta1/vesting';
 
 import { JSONSerializable } from '../../util/json';
 import * as Long from 'long';

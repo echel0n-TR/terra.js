@@ -1,14 +1,14 @@
 import { JSONSerializable } from '../../../util/json';
 import { Coins } from '../../Coins';
 import { AccAddress } from '../../bech32';
-import { Any } from '@terra-money/legacy.proto/google/protobuf/any';
+import { Any } from '@terra-rebels/legacy.proto/google/protobuf/any';
 // there's no difference between two protos
-//import { MsgMultiSend as MsgMultiSend_legacy_pb } from '@terra-money/legacy.proto/cosmos/bank/v1beta1/tx';
-import { MsgMultiSend as MsgMultiSend_pb } from '@terra-money/terra.proto/cosmos/bank/v1beta1/tx';
+//import { MsgMultiSend as MsgMultiSend_legacy_pb } from '@terra-rebels/legacy.proto/cosmos/bank/v1beta1/tx';
+import { MsgMultiSend as MsgMultiSend_pb } from '@terra-rebels/terra.proto/cosmos/bank/v1beta1/tx';
 import {
   Input as Input_pb,
   Output as Output_pb,
-} from '@terra-money/terra.proto/cosmos/bank/v1beta1/bank';
+} from '@terra-rebels/terra.proto/cosmos/bank/v1beta1/bank';
 
 /**
  * If you have multiple senders and/or multiple recipients, you can use MsgMultiSend,
@@ -21,7 +21,7 @@ import {
  * Example:
  *
  * ```ts
- * import { MsgMultiSend } from "@terra-money/terra.js";
+ * import { MsgMultiSend } from "@terra-rebels/terra.js";
  *
  * const inputs: MsgMultiSend.Input[] = [
  *    new MsgMultiSend.Input(

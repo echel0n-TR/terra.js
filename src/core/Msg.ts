@@ -85,7 +85,7 @@ import {
   IbcChannelMsg,
 } from './ibc/msgs/channel';
 import { MsgVerifyInvariant, CrisisMsg } from './crisis';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
 
 export type Msg =
   | BankMsg

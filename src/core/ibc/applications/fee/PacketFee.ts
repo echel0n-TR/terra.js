@@ -1,4 +1,4 @@
-import { PacketFee as PacketFee_pb } from '@terra-money/terra.proto/ibc/applications/fee/v1/fee';
+import { PacketFee as PacketFee_pb } from '@terra-rebels/terra.proto/ibc/applications/fee/v1/fee';
 import { JSONSerializable } from '../../../../util/json';
 import { Fee } from './Fee';
 import { AccAddress } from '../../../..';

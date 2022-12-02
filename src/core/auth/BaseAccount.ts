@@ -1,10 +1,10 @@
 import { PublicKey } from '../PublicKey';
 import { JSONSerializable } from '../../util/json';
 import { AccAddress } from '../bech32';
-// import { BaseAccount as BaseAccount_pb } from '@terra-money/legacy.proto/cosmos/auth/v1beta1/auth';
-// import { Any } from '@terra-money/legacy.proto/google/protobuf/any';
-import { BaseAccount as BaseAccount_pb } from '@terra-money/terra.proto/cosmos/auth/v1beta1/auth';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
+// import { BaseAccount as BaseAccount_pb } from '@terra-rebels/legacy.proto/cosmos/auth/v1beta1/auth';
+// import { Any } from '@terra-rebels/legacy.proto/google/protobuf/any';
+import { BaseAccount as BaseAccount_pb } from '@terra-rebels/terra.proto/cosmos/auth/v1beta1/auth';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
 import * as Long from 'long';
 
 /**

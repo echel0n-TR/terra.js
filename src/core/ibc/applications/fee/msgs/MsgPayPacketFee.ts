@@ -1,6 +1,6 @@
 import { JSONSerializable } from '../../../../../util/json';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
-import { MsgPayPacketFee as MsgPayPacketFee_pb } from '@terra-money/terra.proto/ibc/applications/fee/v1/tx';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
+import { MsgPayPacketFee as MsgPayPacketFee_pb } from '@terra-rebels/terra.proto/ibc/applications/fee/v1/tx';
 import { Fee } from '../Fee';
 
 /**

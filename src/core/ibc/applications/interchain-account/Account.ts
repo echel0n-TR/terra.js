@@ -1,4 +1,4 @@
-import { InterchainAccount as InterchainAccount_pb } from '@terra-money/terra.proto/ibc/applications/interchain_accounts/v1/account';
+import { InterchainAccount as InterchainAccount_pb } from '@terra-rebels/terra.proto/ibc/applications/interchain_accounts/v1/account';
 import { BaseAccount } from '../../../..';
 import { JSONSerializable } from '../../../../util/json';
 

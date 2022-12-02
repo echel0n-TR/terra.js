@@ -1,7 +1,7 @@
 import { JSONSerializable } from '../../../util/json';
 import { AccAddress } from '../../bech32';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
-import { MsgDonateAllVestingTokens as MsgDonateAllVestingTokens_pb } from '@terra-money/terra.proto/cosmos/vesting/v1beta1/tx';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
+import { MsgDonateAllVestingTokens as MsgDonateAllVestingTokens_pb } from '@terra-rebels/terra.proto/cosmos/vesting/v1beta1/tx';
 
 /**
  * DonateAllVestingTokens defines a method that enables donating all vesting

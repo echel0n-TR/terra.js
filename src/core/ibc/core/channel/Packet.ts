@@ -1,4 +1,4 @@
-import { Packet as Packet_pb } from '@terra-money/terra.proto/ibc/core/channel/v1/channel';
+import { Packet as Packet_pb } from '@terra-rebels/terra.proto/ibc/core/channel/v1/channel';
 import Long from 'long';
 import { JSONSerializable } from '../../../../util/json';
 import { Height } from '../client/Height';

@@ -1,9 +1,9 @@
 import { JSONSerializable } from '../../../util/json';
 import { AccAddress } from '../../bech32';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
 // there's no difference between two protos
-// import { MsgSetWithdrawAddress as MsgSetWithdrawAddress_legacy_pb } from '@terra-money/legacy.proto/cosmos/distribution/v1beta1/tx';
-import { MsgSetWithdrawAddress as MsgSetWithdrawAddress_pb } from '@terra-money/terra.proto/cosmos/distribution/v1beta1/tx';
+// import { MsgSetWithdrawAddress as MsgSetWithdrawAddress_legacy_pb } from '@terra-rebels/legacy.proto/cosmos/distribution/v1beta1/tx';
+import { MsgSetWithdrawAddress as MsgSetWithdrawAddress_pb } from '@terra-rebels/terra.proto/cosmos/distribution/v1beta1/tx';
 
 /**
  * A validator can withdraw their outstanding commission rewards accrued from all

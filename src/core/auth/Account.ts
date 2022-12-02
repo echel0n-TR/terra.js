@@ -1,4 +1,4 @@
-import { Any } from '@terra-money/legacy.proto/google/protobuf/any';
+import { Any } from '@terra-rebels/legacy.proto/google/protobuf/any';
 import { BaseAccount } from './BaseAccount';
 import { LazyGradedVestingAccount } from './LazyGradedVestingAccount';
 import { ContinuousVestingAccount } from './ContinuousVestingAccount';

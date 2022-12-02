@@ -1,10 +1,10 @@
 import { Coin } from '../../Coin';
 import { JSONSerializable } from '../../../util/json';
 import { AccAddress, ValAddress } from '../../bech32';
-// import { Any } from '@terra-money/legacy.proto/google/protobuf/any';
-// import { MsgDelegate as MsgDelegate_pb } from '@terra-money/legacy.proto/cosmos/staking/v1beta1/tx';
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
-import { MsgDelegate as MsgDelegate_pb } from '@terra-money/terra.proto/cosmos/staking/v1beta1/tx';
+// import { Any } from '@terra-rebels/legacy.proto/google/protobuf/any';
+// import { MsgDelegate as MsgDelegate_pb } from '@terra-rebels/legacy.proto/cosmos/staking/v1beta1/tx';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
+import { MsgDelegate as MsgDelegate_pb } from '@terra-rebels/terra.proto/cosmos/staking/v1beta1/tx';
 /**
  * A delegator can submit this message to send more Luna to be staked through a
  * validator delegate.

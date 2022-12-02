@@ -1,4 +1,4 @@
-import { Any } from '@terra-money/terra.proto/google/protobuf/any';
+import { Any } from '@terra-rebels/terra.proto/google/protobuf/any';
 import { assert } from 'console';
 import { LCDClient, Msg, MsgUpdateClient } from '../src';
 
